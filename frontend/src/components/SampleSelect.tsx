@@ -114,7 +114,9 @@ class SampleSelect extends React.Component<SampleSelectProps> {
                   this.props.loadData(sampleSize)
                }
                onError={log('errors')}
-            />
+            >
+               <br />
+            </Form>
             <div id="sampleImages" className="d-flex flex-column">
                {sampleImages.length === 0 && (
                   <ReactLoading

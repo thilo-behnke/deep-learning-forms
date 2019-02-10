@@ -28,7 +28,9 @@ export class TrainModeSelect extends React.Component<TrainModeSelectProps> {
                onChange={({ formData: { trainMode } }) =>
                   this.props.setTrainMode(trainMode)
                }
-            />
+            >
+               <br />
+            </Form>
          </TrainModeDiv>
       );
    }
