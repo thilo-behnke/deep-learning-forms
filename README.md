@@ -1,11 +1,14 @@
+# Train deep learning image networks
 
-# Run frontend
-- npm install
-- npm run start
+Use either a deep net or a conv net to train on different datasets.  
+Layers and epochs can be defined.
 
-# Run backend
-- create virtualenv (recommended)
-- pip install -r requirements.txt
-- python manage.py runserver localhost:8000
-```
-```
+# Run in development mode
+
+Run in project root: `docker-compose up`  
+Access on `localhost:3000`.
+
+# Demo
+
+![](docs/demo.png)
+
