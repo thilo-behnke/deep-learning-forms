@@ -10,4 +10,4 @@ COPY . /server
 
 EXPOSE 8000
 
-CMD 'python manage.py runserver localhost:8000'
+CMD ["/bin/bash", "-c", "python manage.py runserver 0:8000"]
