@@ -1,6 +1,8 @@
 version: "3.5"
 services:
   frontend:
+    # Without this, the container exits immediately :/
+    stdin_open: true
     build:
       context: frontend
       dockerfile: Dockerfile
